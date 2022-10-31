@@ -3,7 +3,7 @@
 import meraki
 import csv
 
-API_KEY = "a630ef77d753d3e1a7054003ab904a85c59b5bc6"
+API_KEY = ""
 dashboard = meraki.DashboardAPI(API_KEY)
 organizations = dashboard.organizations.getOrganizations()
 
